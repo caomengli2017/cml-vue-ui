@@ -1,7 +1,7 @@
-import buttons from './buttons'
+import badge from './badge'
 
 const components = [
-    buttons
+    badge
 ]
 
 const install = function (Vue) {
@@ -15,5 +15,5 @@ if (typeof window !== 'undefined' && window.Vue){
 
 export default {
     install,
-    buttons
+    badge
 }
